@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Star
+  </title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script type="module" src="./scripts/index.js"></script>
+  <script type="module" src="./scripts/view_moon.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/star.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <audio id="song" src="sound/coldplay-yellow.mp3"></audio>
+    <div class="lyrics-container">
+      <div class="lyrics" id="lyrics-eng">
+      </div>
+      <div class="lyrics" id="lyrics-esp">
+      </div>
+    </div>
+    <div class="message">
+        <p id="message-text" class="sand-text typing-msg">¿Quieres ser mi San Valentín? 💗💞💘</p>
+      </div>
+    <div class="astronaut-container">
+      <div class="dialog">
+        <div class="text-box">
+          <p class="text" id="text"></p>
+        </div>
+        <div class="options">
+          <button id="yes-btn">SI</button>
+          <button id="no-btn">NO</button>
+        </div>
+      </div>
+      <div class="astronaut" id="astronaut">
+        <img id="astronaut-img" src="img/jade-guilbot-astronaute-dash-gif.gif" alt="astronaut">
+      </div>
+    </div>
+    <div class="stars-container hidden">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    <div class="moon" id="moon">
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="space space-1"></div>
+    <div class="space space-2"></div>
+    <div class="space space-3"></div>
+    <div class="earth">
+      <div class="ground" id="ground">
+        <div class="grass-layer" id="grass-layer"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
