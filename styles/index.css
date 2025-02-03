@@ -244,6 +244,7 @@ body {
   position: absolute;
   bottom: 0;
   overflow: visible;
+  bottom: env(safe-area-inset-bottom);
   /* background: #fff; */
 }
 .ground {
