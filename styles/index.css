@@ -1,6 +1,7 @@
 body {
   background: #171717;
   bottom: env(safe-area-inset-bottom, 0);
+  box-sizing: border-box;
 }
 .container {
   background-image: linear-gradient(#051327, #000);
