@@ -67,7 +67,7 @@ const lyricsData = [
   { eng: `You know`, esp: `Tú sabes`, time: 101 },
   { eng: `You know I love you so`, esp: `Tú sabes que te amo tanto`, time: 103 },
   { eng: `You know I love you so`, esp: `Tú sabes que te amo tanto`, time: 108 },
-  { eng: ``, esp: ``, time: 111 },
+  { eng: ``, esp: ``, time: 112 },
   { eng: `I swam across`, esp: `Nadé al otro lado`, time: 134 },
   { eng: `I jumped across for you`, esp: `Salté al otro lado por ti`, time: 137 },
   { eng: `Oh, what a thing to do`, esp: `Oh, qué cosa por hacer`, time: 143 },
