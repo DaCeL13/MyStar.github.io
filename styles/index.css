@@ -35,7 +35,7 @@ body {
 }
 #lyrics-eng {
   height: fit-content;
-  color: #ccd85f;
+  color: #dbcb38;
 }
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
