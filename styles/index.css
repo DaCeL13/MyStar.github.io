@@ -7,8 +7,9 @@ body {
   background-image: linear-gradient(#051327, #000);
   position: fixed;
   inset: 0;
-  width: 100vw;
-  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: auto;
 }
 .lyrics-container {
   position: absolute;
@@ -239,9 +240,9 @@ body {
   left: 50%;
 } */
 .earth {
-  width: 100%;
+  width: 100vw;
   height: 7%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   overflow: visible;
   bottom: env(safe-area-inset-bottom);
