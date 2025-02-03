@@ -45,7 +45,7 @@ const messages = [
     { text: "No quiero a nadie que no seas tú...", showButtonSi: false, showButtonNo: false },
     { text: "Siempre te elegiré a tí, siempre eligiré esos ojitos bonitos...", showButtonSi: false, showButtonNo: false },
     { text: "Es momento de irme...", showButtonSi: false, showButtonNo: false },
-    { text: "Nos vemos pronto. Te quiero un montón... Mi estrella hermosa 💞💫.", showButtonSi: false, showButtonNo: false },
+    { text: "Nos vemos pronto. Te quiero un montón... Mi estrella hermosa 💞💫", showButtonSi: false, showButtonNo: false },
 ];
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
@@ -233,9 +233,9 @@ async function handleYes() {
       });
       await sleep(2000);
       starsCont.classList.remove("hidden");
-      await sleep(5000);
-      showMessage(14);
       await sleep(3000);
+      showMessage(14);
+      await sleep(5000);
       showMessage(15);
       await sleep(6000);
       showMessage(16);
